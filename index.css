@@ -27,6 +27,7 @@ body {
 @media print {
     .content {
         margin: 0;
+        padding: 0;
         width: 100%;
         box-shadow: none;
     }
@@ -46,13 +47,15 @@ table, th, td {
 }
 
 table {
+    margin: 0;
+    padding: 0;
     width: 100%;
     table-layout: fixed;
 }
 
 td {
     font-size: 28px;
-    padding: .1em .4em;
+    padding: .09em .4em;
 }
 
 td:first-child {
