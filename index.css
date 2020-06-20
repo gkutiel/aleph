@@ -61,3 +61,7 @@ td {
 td:first-child {
     font-family: 'Rubik'
 }
+
+@page {
+    margin: 0;
+}
